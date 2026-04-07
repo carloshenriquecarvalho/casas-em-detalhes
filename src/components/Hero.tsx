@@ -17,10 +17,9 @@ export default function Hero() {
           fill
           sizes="100vw"
           unoptimized
+          priority
           className="object-cover opacity-100 mix-blend-multiply"
         />
-        {/* Decorative Grid */}
-        <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))] opacity-[0.03] z-10" />
       </div>
 
       <div className="container relative z-20 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-2">
@@ -37,6 +36,7 @@ export default function Hero() {
               width={140} 
               height={100}
               className="mx-auto"
+              style={{ width: "auto", height: "auto" }}
               priority
             />
           </motion.div>
