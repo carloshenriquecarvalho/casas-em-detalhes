@@ -23,14 +23,13 @@ export default function Hero() {
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))] opacity-[0.03] z-10" />
       </div>
 
-      <div className="container relative z-20 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-10">
+      <div className="container relative z-20 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-5">
         <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
           
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="mb-8"
           >
             <Image 
               src="/logo.png" 
@@ -46,7 +45,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-orange/30 bg-brand-orange/10 text-brand-orange mb-6 text-sm font-semibold tracking-wide uppercase shadow-sm"
+            className="inline-flex items-center gap-2 px-4 py-1 rounded-full border border-brand-orange/30 bg-brand-orange/10 text-brand-orange mb-6 text-sm font-semibold tracking-wide uppercase shadow-sm"
           >
             <span className="w-2 h-2 rounded-full bg-brand-orange animate-pulse" />
             Qualidade, Eficiência e Conforto
@@ -56,7 +55,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
-            className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-brand-black mb-6 leading-[1.1]"
+            className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-brand-black mb-4 leading-[1.1]"
           >
             Transforme sua casa com <br className="hidden sm:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-amber-500">
@@ -78,7 +77,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
-            className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
+            className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4"
           >
             <a
               href="http://wa.me/556184896251"
