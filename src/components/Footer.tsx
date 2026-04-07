@@ -76,6 +76,9 @@ export default function Footer() {
           <p className="text-zinc-500 text-sm">
             © {new Date().getFullYear()} Casas em Detalhe. Todos os direitos reservados.
           </p>
+          <p className="text-zinc-600 text-xs font-mono uppercase tracking-wider">
+            A PREMIUM IMPLEMENTATION. MADE BY NEXUS GROWTH
+          </p>
         </div>
       </div>
     </footer>

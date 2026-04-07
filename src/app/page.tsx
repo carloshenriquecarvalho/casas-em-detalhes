@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import SocialProof from "@/components/SocialProof";
 import ProblemSolution from "@/components/ProblemSolution";
 import Services from "@/components/Services";
+import EsquadriasSection from "@/components/EsquadriasSection";
 import Benefits from "@/components/Benefits";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
@@ -14,6 +15,7 @@ export default function Home() {
       <SocialProof />
       <ProblemSolution />
       <Services />
+      <EsquadriasSection />
       <Benefits />
       <Testimonials />
       <FAQ />

@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Star } from "lucide-react";
 
 export default function Testimonials() {
   return (
@@ -40,24 +39,19 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="bg-zinc-50 p-8 rounded-3xl border border-zinc-200 shadow-sm flex flex-col justify-between"
+              className="bg-zinc-50 p-6 rounded-3xl border border-zinc-200 shadow-sm flex flex-col justify-between"
             >
-              <div>
-                <div className="flex gap-1 mb-6">
-                  {[...Array(5)].map((_, idx) => (
-                    <Star key={idx} className="w-5 h-5 fill-brand-orange text-brand-orange" />
-                  ))}
-                </div>
-                <p className="text-zinc-700 mb-8 italic">&quot;{item.text}&quot;</p>
-              </div>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-brand-orange to-amber-300 flex items-center justify-center text-white font-bold text-lg shadow-md">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-brand-orange to-amber-300 flex items-center justify-center text-white font-bold text-lg shadow-md shrink-0">
                   {item.author.charAt(0)}
                 </div>
                 <div>
                   <div className="text-brand-black font-semibold">{item.author}</div>
                   <div className="text-brand-orange text-sm font-medium">{item.role}</div>
                 </div>
+              </div>
+              <div>
+                <p className="text-zinc-700">{item.text}</p>
               </div>
             </motion.div>
           ))}
