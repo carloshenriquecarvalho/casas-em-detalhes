@@ -16,7 +16,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a 
-                href="https://www.instagram.com/" 
+                href="https://www.instagram.com/casasemdetalhe.df/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-orange hover:text-white transition-colors"
