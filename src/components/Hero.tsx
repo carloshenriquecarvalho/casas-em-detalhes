@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden bg-white">
+    <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden bg-white mb-16">
       {/* Background Graphic/Overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-white/80 z-10" />
@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))] opacity-[0.03] z-10" />
       </div>
 
-      <div className="container relative z-20 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-5">
+      <div className="container relative z-20 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-2">
         <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
           
           <motion.div
@@ -34,7 +34,7 @@ export default function Hero() {
             <Image 
               src="/logo.png" 
               alt="Casas em Detalhe Logo" 
-              width={200} 
+              width={140} 
               height={100}
               className="mx-auto"
               priority
