@@ -3,8 +3,10 @@
 import { motion } from "framer-motion";
 import { ArrowRight, MessageSquare } from "lucide-react";
 import Image from "next/image";
+import Button from "./ui/Button";
 
 export default function Hero() {
+  // const function handleButtonClick
   return (
     <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden bg-white lg:mb-16">
       {/* Background Graphic/Overlay */}
@@ -79,16 +81,12 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
             className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4"
           >
-            <a
-              href="http://wa.me/556184896251"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group flex items-center justify-center gap-2 bg-brand-orange text-white px-8 py-4 rounded-xl text-lg font-bold transition-all hover:bg-orange-600 hover:scale-[1.02] hover:shadow-[0_0_20px_-5px_rgba(239,108,0,0.4)] active:scale-95"
+            <Button
+            url="http://wa.me/5561991610187"
+            text="Falar no WhatsApp"
             >
-              <MessageSquare className="w-5 h-5" />
-              Falar no WhatsApp
-            </a>
-            
+              
+            </Button>
             <a
               href="#servicos"
               className="group flex items-center justify-center gap-2 bg-zinc-100 border border-zinc-200 text-brand-black px-8 py-4 rounded-xl text-lg font-medium transition-all hover:bg-zinc-200 hover:border-zinc-300"
