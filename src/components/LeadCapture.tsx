@@ -25,7 +25,7 @@ export default function LeadCapture() {
     // Push event to Google Tag Manager dataLayer
     if (typeof window !== "undefined") {
       sendGTMEvent({
-        event: "whatsapp_click",
+        event: "form_submit_whatsapp",
         lead_data: {
           project_type: formData.projectType,
           urgency: formData.urgency,
