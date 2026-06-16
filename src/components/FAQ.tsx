@@ -91,7 +91,7 @@ export default function FAQ() {
         <div className="mt-12 text-center">
           <p className="text-zinc-600 mb-4">Ainda com dúvidas?</p>
           <a
-            href="http://wa.me/556184896251"
+            href="http://wa.me/5561991610187"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-brand-orange font-bold hover:text-orange-600 transition-colors border-b border-brand-orange pb-1 hover:border-orange-600"

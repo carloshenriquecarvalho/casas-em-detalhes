@@ -44,7 +44,7 @@ export default function LeadCapture() {
       const stageText = formData.stage ? ` A obra está ${formData.stage.toLowerCase()}.` : "";
       const text = `Olá! Meu nome é ${formData.name}. Tenho interesse em projetos de ${formData.projectType || 'ambientes sob medida'}.${urgencyText}${stageText}`;
       
-      const whatsappUrl = `https://wa.me/556184896251?text=${encodeURIComponent(text)}`;
+      const whatsappUrl = `https://wa.me/5561991610187?text=${encodeURIComponent(text)}`;
       
       // Redirect after a short delay so the user sees the success state
       setTimeout(() => {

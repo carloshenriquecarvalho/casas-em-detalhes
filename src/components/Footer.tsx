@@ -47,7 +47,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li><a href="#" className="text-zinc-400 hover:text-brand-orange transition-colors">Início</a></li>
               <li><a href="#servicos" className="text-zinc-400 hover:text-brand-orange transition-colors">Serviços</a></li>
-              <li><a href="http://wa.me/556184896251" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-brand-orange transition-colors">Orçamento</a></li>
+              <li><a href="http://wa.me/5561991610187" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-brand-orange transition-colors">Orçamento</a></li>
             </ul>
           </div>
 
@@ -57,11 +57,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-zinc-400">
                 <Phone className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />
-                <span>(61) 99143-8455</span>
+                <span>(61) 99161-0187</span>
               </li>
               <li className="flex items-start gap-3 text-zinc-400">
                 <Mail className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />
-                <span>contato@casasemdetalhe.com.br</span>
+                <span>casaemdetalhe@gmail.com</span>
               </li>
               <li className="flex items-start gap-3 text-zinc-400">
                 <MapPin className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />

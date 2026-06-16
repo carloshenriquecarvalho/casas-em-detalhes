@@ -45,7 +45,7 @@ export default function Services() {
               <p className="text-zinc-200 leading-relaxed max-w-md mb-6 shadow-sm">
                 Cozinhas, dormitórios, salas e closets projetados para maximizar seu espaço com ergonomia, beleza e materiais de primeiríssima linha.
               </p>
-              <a href="http://wa.me/556184896251" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-orange font-semibold hover:text-white transition-colors">
+              <a href="http://wa.me/5561991610187" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-orange font-semibold hover:text-white transition-colors">
                 Solicitar Orçamento <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -77,7 +77,7 @@ export default function Services() {
               <p className="text-zinc-200 leading-relaxed max-w-md mb-6 shadow-sm">
                 Janelas, portas e fachadas em alumínio que trazem luz natural, isolamento e um visual moderno de alto padrão para sua obra.
               </p>
-              <a href="http://wa.me/556184896251" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-white font-semibold hover:text-brand-orange transition-colors">
+              <a href="http://wa.me/5561991610187" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-white font-semibold hover:text-brand-orange transition-colors">
                 Solicitar Orçamento <ArrowRight className="w-5 h-5" />
               </a>
             </div>
